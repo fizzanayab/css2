@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+body{
+width: 100%;
+min-height: 1000px;
+margin: 0;
+background-color:#252B43 ;
+background-image: url(https://i.pinimg.com/originals/a4/9e/55/a49e55ce56f7204ad9573fbc2d913237.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+ /* header start */
+
+header{
+    width: 100%;
+   height: 70px;
+    /* background-color:#ff49e7; */
+    float: left;
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo{
+    min-width: 10%;
+    height: 70px;
+    /* background-color:#ff4949; */
+    float: left;
+    user-select: none;
+    color: aliceblue;
+    font-family: Quicksand;
+    font-weight: 800;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.home{
+    min-width: 40%;
+    height: 70px;
+    /* background-color:#35df3e; */
+    float: left;
+    font-family: Quicksand;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+ul :hover{
+    background-color: rgb(173, 211, 243);
+    color: #000000;
+    transition: 2s;
+}
+
+.login{
+    min-width: 10%;
+    height: 70px;
+    /* background-color:#6449ffc4; */
+    float: left;
+    font-family: Quicksand;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.login :hover{
+    background-color: rgb(173, 211, 243);
+    color: #000000;
+    transition: 2s;
+}
+
+.joinus{
+    min-width: 10%;
+    height: 50px;
+    background-color:#25A5F0;
+    float: left;
+    font-family: Quicksand;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.joinus :hover{
+    background-color: rgb(173, 211, 243);
+    color: #000000;
+    transition: 2s;
+}
+
+  /* header end */
+
+  /* nav start */
+
+nav{
+    width: 100%;
+    min-height: 700px;
+    background-color:#70bb3e ;
+    float: left;
+
+    
+}
+
+.image{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.load{
+    width: 500px;
+  height: 400px;
+  background: #CFE4E7;
+  border-radius: 50%;
+  position: relative;
+  z-index: -1; 
+
+}
+
+
+ 
+
+
+
+
+.image{
+    width: 60%;
+    min-height: 700px;
+    background-color:#c430a4 ;
+    float: left;
+}
+
+.written{
+    width: 40%;
+    min-height: 700px;
+    background-color:#14074d ;
+    float: left;
+}
+
+/* nav end */
+
+
+footer{
+    width: 100%;
+    min-height: 200px;
+    background-color:#d41919 ;
+    float: left;
+
+}
+
+.container{
+    width: 100%;
+    min-height: 600px;
+    background-color:#d0ff00 ;
+    float: left;
+
+}
