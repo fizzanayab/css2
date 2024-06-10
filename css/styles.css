@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
-
 body{
 width: 100%;
 min-height: 1000px;
@@ -11,11 +10,11 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
- /* header start */
+    /* header start */
 
 header{
     width: 100%;
-   height: 70px;
+    height: 70px;
     /* background-color:#ff49e7; */
     float: left;
     display: flex;
@@ -48,7 +47,7 @@ header{
     align-items: center;
 }
 
-ul :hover{
+.hover1 :hover{
     background-color: rgb(173, 211, 243);
     color: #000000;
     transition: 2s;
@@ -98,73 +97,305 @@ a{
     transition: 2s;
 }
 
-  /* header end */
+    /* header end */
 
-  /* nav start */
+    /* nav start */
 
 nav{
     width: 100%;
     min-height: 700px;
-    background-color:#70bb3e ;
-    float: left;
-
-    
+    /* background-color:#70bb3e ; */
+    float: left; 
 }
 
-.image{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-
+img{
+    
+     position: absolute;
+   z-index: 2;
 }
 
 .load{
-    width: 500px;
-  height: 400px;
+    width: 300px;
+  height: 300px;
   background: #CFE4E7;
   border-radius: 50%;
-  position: relative;
-  z-index: -1; 
+  position: absolute;
+z-index: 1;
 
 }
 
-
+.ima{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  
-
-
-
-
 .image{
     width: 60%;
     min-height: 700px;
-    background-color:#c430a4 ;
+    /* background-color:#c430a4 ; */
     float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1{
+    width: 100px;
+    height: 50px;
+    background: #089aad;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin-right: 290px;
+    background-image: url(https://as1.ftcdn.net/v2/jpg/05/47/26/24/1000_F_547262418_YQvR45ZQAIBEgq1wzlDx0kDu7sBUTl7C.jpg);
+    background-size: cover;
+}
+.box2{
+    width: 100px;
+    height: 80px;
+    background: #170b5a;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin-right: 220px;
+    margin-top: 320px;
+    background-image: url(https://www.conceptdraw.com/How-To-Guide/picture/bar-diagram-for-problem-solving-business-management-bar-charts.png);
+    background-size: cover;
+
+}
+.box3{
+    width: 120px;
+    height: 120px;
+    background: #6b035d;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 3;
+    margin-left: 350px;
+    margin-top: 180px ;
+    background-image: url(https://nulivo.s3.us-east-2.amazonaws.com/media/users/neroox/products/355/business-pie-chart-template-for-graphs-charts-diagrams.jpg);
+    background-size: cover;
+
 }
 
 .written{
     width: 40%;
     min-height: 700px;
-    background-color:#14074d ;
+    /* background-color:#14074d ; */
     float: left;
+  
 }
 
-/* nav end */
+.wr{
+    width: 80% ;
+    height: 300px;
+    /* background-color: #d41919; */
+    list-style: none;
+    color: aliceblue;
+    font-family: Quicksand;
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 30px;
+    
+}
 
+.quote{
+  
+    color: aliceblue;
+    font-family: Quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    border-style: ridge;
+    background-color:#25A5F0 ;
+    margin-left: 25px;
+}
+.lm{
+    color: aliceblue;
+    font-family: Quicksand;
+    font-weight: 600;
+    font-size: 20px;
+    border-style: ridge;
 
+}
+
+.spanhover :hover{
+    background-color: rgb(173, 211, 243);
+    color: #000000;
+    transition: 2s;
+}
+
+    /* nav end */
+
+   /* footer start */
 footer{
     width: 100%;
     min-height: 200px;
-    background-color:#d41919 ;
+    /* background-color:#d41919 ; */
     float: left;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    transition: all .2s ease-in-out; 
 
 }
+
+footer :hover{
+    transform: scale(1.1); 
+
+}
+
+.flag{
+    width: 25%;
+    min-height: 200px;
+    background-color:#ffffff ;
+    float: left;
+       
+}
+
+.map{
+    width: 25%;
+    min-height: 200px;
+    background-color:#ffffff ;
+    float: left;
+}
+
+.web{
+    width: 25%;
+    min-height: 200px;
+    background-color:#ffffff ;
+    float: left;
+}
+
+i{
+    width: 40px;
+    height: 50px;
+    background-color: #f85050;
+    color: aliceblue;
+margin-top: 20px;
+    border-radius: 10%;
+    margin-left: 100px;
+    text-align: center;
+}
+
+p{
+    font-family: Quicksand;
+    font-weight: 600;
+    font-size: 10px;
+    color: black;
+
+}
+
+h1{
+    font-family: Quicksand;
+    font-weight: 800;
+    font-size: 20px;
+    color: black;
+
+}
+
+   /* footer end */
+
+   /* container start */
 
 .container{
     width: 100%;
     min-height: 600px;
-    background-color:#d0ff00 ;
+    /* background-color:#d0ff00 ; */
     float: left;
+}
+
+.contimg{
+    width: 50%;
+    min-height: 600px;
+    /* background-color: #6b035d; */
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contawrite {
+    width: 40%;
+    min-height: 600px;
+    /* background-color: #ffc5f7; */
+    float: left;
+    
+}
+
+.imgb1{
+    width: 250px;
+    min-height: 200px;
+    background-color: #FFEFF0;
+    position: absolute;
+   z-index: 1;
+}
+
+.imageb2{
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imageb3{
+    width: 40px;
+    min-height: 40px;
+    background-color: #FFEFF0;
+    position: absolute;
+    z-index: 3;
+    margin-bottom: 160px;
+    margin-right: 300px;
+}
+
+.imageb4{
+    width: 90px;
+    min-height: 100px;
+    background-color: #FFEFF0;
+    position: absolute;
+    z-index: 3;
+    margin-left: 260px;
+    background-image: url(https://www.netsuite.com/portal/assets/img/business-articles/erp/Bar_graph.png);
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.imageb5{
+    width: 250px;
+    min-height: 90px;
+    background-color: #FFEFF0;
+    position: absolute;
+    z-index: 3;
+    margin-left: 200px;
+    margin-top: 250px;
+    background-image: url(https://chartexpo.com/blog/wp-content/uploads/2022/06/progress-chart-as-business-graphs-and-charts-examples-062.jpg);
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.imageb6{
+    width: 30px;
+    min-height: 30px;
+    background-color: #FFEFF0;
+    position: absolute;
+    z-index: 3;
+    margin-top: 80px;
+    margin-right: 300px;
+}
+
+.hr{
+    width: 60px;
+    min-height: 5px;
+    background-color: #d6404a;
+    margin-top: 130px;
 
 }
+
+h2{
+    font-family: Quicksand;
+    font-weight: 800;
+    font-size: 40px;
+    color: rgb(255, 254, 254);
+}
+
+/* container end */
